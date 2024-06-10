@@ -1,0 +1,17 @@
+@import "../../public/css/style.css";
+/* width */
+::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white; 
+    border-radius: 10px;
+  }
+  th:hover{
+    background-color: rgb(63, 166, 207);
+    color: aliceblue;
+    transition: all 0.5s;
+  }

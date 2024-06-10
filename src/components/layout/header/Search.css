@@ -1,0 +1,17 @@
+.recent-searches-list {
+    z-index: 1000;
+    background-color: white;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-top: none;
+    width: 100%;
+  }
+  
+  .recent-searches-list li {
+    cursor: pointer;
+  }
+  
+  .recent-searches-list li:hover {
+    background-color: #f0f0f0;
+  }
